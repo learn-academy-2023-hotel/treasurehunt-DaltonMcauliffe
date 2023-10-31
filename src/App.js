@@ -9,7 +9,7 @@ import Attempts from "./components/Attempts";
 // const [attempts, setAttempts] = useState(5)
 //       const handleCounterClick = () => {
 //         setAttempts(attempts - 1)
-
+// make box counter count down
 const App = () => {
   const [board, setBoard] = useState([
     "?",
