@@ -11,8 +11,24 @@ h1 {
 }
 
 .board {
+  background-color: aqua;
   display: flex;
   flex-wrap: wrap;
   width: 610px;
   margin: 0 auto;
 }
+
+.attempts {
+  margin-right: 0 auto;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}
+.reset-game{
+  margin-top: auto;
+}
+h1 {
+  color: hotpink;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

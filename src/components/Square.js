@@ -1,12 +1,19 @@
 import React from "react"
 
-const Square = ({ value }) => {
-// destructuring props  
-//  const { value } = props is same as props.value
-// instead pass the destructured prop in parameters
+const Square = ({ value, index, handleSquareClick }) => {
+  // destructuring props
+  // "const { value } = props" is same as props.value
+  // instead pass the destructured prop in the parenthesis
+  const handleClick = () => {
+    handleSquareClick(index)
+  };
+  
+
   return (
     <>
-      <div className="square">{value}</div>
+      <div className="square" onClick={handleClick}>
+        {value}
+      </div>
     </>
   )
 }
