@@ -48,8 +48,18 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 ### 📚 User Stories
 
 - As a user, I can see a page with a three by three grid board game with a question mark in each square.
+// branch: game-board
+// Mapped: over the array in state to dynamically render 9 squares
+// styled the boar
+// passed the value of state to square
+// styled square
+
 - As a user, when I click on one of the question marks, an alert appears with the index position of that question mark in the array.
+// index-position
+
 - As a user, when I click on one of the question marks, a tree emoji appears instead of the alert.
+//made copy of board using the spread operator
+// updated value of square at particular index of tree
 - As a user, if I select the winning square, the question mark will become a treasure emoji. If I select the losing square, the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.
 - As a user, I can see a counter that shows how many guesses are remaining. The counter starts at five and decrements by one every time I click on a square that is neither the treasure nor the bomb.

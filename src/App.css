@@ -6,4 +6,29 @@ h1 {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  font-size: 10rem;
+  text-align: center;
 }
+
+.board {
+  background-color: aqua;
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+  margin: 0 auto;
+}
+
+.attempts {
+  margin-right: 0 auto;
+  border: 1px solid black;
+  height: auto;
+  width: auto;
+}
+.reset-game{
+  margin-top: auto;
+}
+h1 {
+  color: hotpink;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
